@@ -6,9 +6,11 @@ namespace TicTacToe
     {
         static void Main(string[] args)
         {
+            char[] createBoard;
             Game obj = new Game();
-            obj.Board();
-            obj.ChoosePlayer();
+            createBoard=obj.Board();
+            //obj.ChoosePlayer();
+            obj.ShowBoard(createBoard);
         }
     }
 }
