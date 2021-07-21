@@ -8,6 +8,7 @@ namespace TicTacToe
         {
             Game obj = new Game();
             obj.Board();
+            obj.ChoosePlayer();
         }
     }
 }
